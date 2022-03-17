@@ -1,0 +1,200 @@
+/*Common CSS Start*/
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #3B506C;
+	margin: 0px;
+	padding: 0px;
+}
+/*Common CSS End*/
+/*header start*/
+header{
+	padding: 10px 0px;
+	border-bottom: 2px solid #EEF0F3;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	
+
+
+}
+
+.logo {
+	width: 10%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 50%;
+	float: right;
+	/*border: 1px solid;*/
+
+}
+.menu ul{
+	/*border: 1px solid ;*/
+	overflow: hidden;
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	margin:0px 25px;
+	text-decoration: none;
+	color: #3B506C;
+	text-transform: 0.3s;
+
+}
+.menu ul li a:last-child{
+	margin-right: 0px;
+}
+.menu ul li a:hover{
+	color: #0C66FF;
+
+}
+/*header end*/
+/*banner start*/
+.container {
+	width: 60%;
+	margin: 55px auto;
+	/*border: 1px solid ;*/
+
+}
+
+.b_content {
+	text-align: center;
+	/*border: 1px solid;*/
+
+}
+.b_content h1{
+	font-size: 40px;
+	margin: 0px;
+}
+
+.b_content h1 span{
+	color: #008AFF;
+}
+.b_content p{
+	line-height: 1.8;
+}
+.b_image {
+	width: 80%;
+	margin: 0px auto;
+	/*border: 1px solid;*/
+}
+.b_image img{
+	width: 100%;
+}
+/*banner end*/
+/*Success Start*/
+.success {
+}
+
+
+
+.s_content {
+	overflow: hidden;
+	
+}
+
+.left {
+	width: 42%;
+	text-align: right;
+	float: left;
+	/*border: 1px solid;*/
+	padding:0 0 0 6%;
+}
+.left h1{
+	font-size: 40px;
+	margin: 0px;
+	color: #F15767;
+}
+.left p{
+	 line-height: 25px;
+    margin: 0px;
+}
+.right {
+	float: right;
+	width: 42%;
+	/*border: 1px solid;*/
+	padding: 0 6% 0 0;
+}
+.right h2{
+	font-size: 40px;
+	margin: 0px;
+}
+/*Success Start*/
+/*feature start*/
+.feature {
+	padding: 50px 0px;
+ 
+}
+
+
+.all {
+	
+	overflow: hidden;
+}
+
+.single {
+	width: 31.56%;
+	float: left;
+	margin: 0px 1.33%;
+}
+.single:first-child{
+	margin-left: 0px;
+}
+.single:last-child{
+	margin-right: 0px;
+
+}
+.pink{
+	background-color: #FDEBED;
+}
+.green{
+	background-color:#EBF9F4 ;
+}
+.yellow{
+	background-color:#FFF7E8 ;
+}
+.s_image {
+}
+.s_image img{
+	width: 100%;
+
+}
+.s_text{
+	margin:0 20px 75px 20px;
+}
+.single h2{
+	margin: 0px;
+}
+.single p{
+	line-height: 25px;
+}
+/*feature end*/
+/*footer start*/
+footer{
+	background-color: #008AFF;
+}
+.footer{
+	width: 30%;
+	margin: 0 auto;
+}
+.footer p{
+	
+	font-weight: 300;
+	margin: 0 auto;
+	padding: 30px 0;
+	color: white;
+
+
+}
+
+/*footer end*/
